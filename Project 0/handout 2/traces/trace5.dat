@@ -1,0 +1,5 @@
+ls [1,2,130,1]
+kill -STOP 1
+pass
+kill -CONT 1
+exit

@@ -1,0 +1,19 @@
+This tar file contains the following files:
+   * fp.h  - header file with the 'representation' (# exponent & fraction bits)
+   * fp_functs.c - function stubs that you will code
+   * Makefile
+   * Files to build the driver: fp.l fp_program.c fpParse.h test_pgm.o
+   * output_all_values.c - Simple program to output all of the floats that
+          are representatable with the given number of bits.  This program
+          will be useful when you are trying to determine if your program
+          is working correctly.
+   * Single sample program - you can write others or enter programs on
+        the command line
+
+Once you type 'make', you will also have:
+   * fp - executable for your program
+   * all_values - executable assocaited with output_all_values
+   * various .o files that you can ignore
+
+
+The only file you should be modifying is fp_functs.c
